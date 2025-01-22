@@ -4,6 +4,7 @@ var accountPassword = "12345"
 console.log(accountId);
 
 //let accountCity;
+// accountId = 76427//not applicable
 accountEmail = "prerana@gmail.com"
 accountPassword = "6537865"
 accountCity = "khatra"
