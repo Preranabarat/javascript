@@ -38,3 +38,25 @@ function loginUserMessage(username="sam"){
 console.log(loginUserMessage("Prerana"));//override
 // console.log(loginUserMessage());//umdefined
 
+function calculateCartPrice(...num1){//rest operator
+    return num1
+}
+console.log(calculateCartPrice(200,400,500));
+
+
+const user={
+    username:"prerana",
+    price:1999
+}
+function handleObjet(anyobect){
+    console.log(`user name is ${anyobect.username} price is ${anyobect.price}`);
+    
+} 
+handleObjet(user)
+
+const myNewArray=[2000,300,400]
+
+function returnSecondValue(getArray){
+     return getArray[1]
+}
+console.log(returnSecondValue(myNewArray));
