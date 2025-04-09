@@ -1,0 +1,50 @@
+.button{
+    height: 50px;
+    width: 50px;
+    display:flex;
+    align-items: center;
+    border: 2px solid black;
+    justify-content: center;
+}
+#grey{
+    background-color: grey;
+}
+#blue{
+    background-color: blue;
+
+}
+#yellow{
+    background-color: yellow;
+}
+#white{
+    background-color: white;
+}
+nav{
+    display: flex;
+
+    width: 100%;
+    border: 2px solid black;
+}
+.home{
+    /* height: 10%; */
+    width: 50%;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    
+}
+
+.yt{
+    /* height: 10%; */
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid black;
+}
+*{
+    align-items: center;
+    justify-content: center;
+
+}
