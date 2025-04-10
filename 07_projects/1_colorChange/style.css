@@ -1,10 +1,9 @@
 .button{
-    height: 50px;
-    width: 50px;
-    display:flex;
-    align-items: center;
+    height: 100px;
+    width: 100px;
+    display:inline-block;
     border: 2px solid black;
-    justify-content: center;
+    
 }
 #grey{
     background-color: grey;
@@ -19,32 +18,14 @@
 #white{
     background-color: white;
 }
-nav{
-    display: flex;
-
-    width: 100%;
-    border: 2px solid black;
+html{
+    margin: 0;
 }
-.home{
-    /* height: 10%; */
-    width: 50%;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid black;
-    
+span{
+    display: block;
 }
-
-.yt{
-    /* height: 10%; */
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    border: 2px solid black;
-}
-*{
-    align-items: center;
-    justify-content: center;
-
+.canvas{
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
 }
